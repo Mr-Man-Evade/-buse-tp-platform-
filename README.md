@@ -2,6 +2,8 @@
 
 A comprehensive, web-based Teaching Practice (TP) Management & Communication System for Bindura University of Science Education (BUSE). This platform enables seamless collaboration between student teachers, mentors, supervisors, and coordinators.
 
+For task-by-task instructions, see the [User Guide](USER_GUIDE.md). For installation and development setup, see [Quick Start](QUICK_START.md).
+
 ## 🎯 Features
 
 ### Core Functionality
@@ -44,6 +46,7 @@ cd backend
 copy .env.example .env
 notepad .env
 node scripts/setup-db.js
+cd ..
 ```
 
 Alternatively on Windows:
@@ -203,34 +206,25 @@ This platform is optimized for responsive web use on desktop, tablet, and mobile
 
 ## Repository & CI
 
-This project is hosted privately on GitHub: https://github.com/Mr-Man-Evade/BUSE-TP_CONNECT-1
+This project is hosted on GitHub: https://github.com/Mr-Man-Evade/-buse-tp-platform-
 
-A GitHub Actions workflow has been added at `.github/workflows/ci.yml` to install dependencies and build the frontend on pushes and pull requests to `main`.
+A GitHub Actions workflow at `.github/workflows/ci.yml` runs backend tests and builds the frontend on pushes and pull requests to `main`.
 
-**Security note:** If you used a Personal Access Token (PAT) to create the repository, revoke it now in your GitHub account settings and prefer fine-grained tokens or the `gh` CLI for future automation.
 - **Input Validation**: Express-validator for all inputs
 - **File Validation**: MIME type and size checking
-- **CORS Configuration**: Restricted to trusted origins
+- **CORS Configuration**: Configured in the Express API; restrict allowed origins before production deployment
 - **SQL Injection Prevention**: Parameterized queries via pg
 
 ## 🐛 Development
 
 ### Run Tests
 ```bash
-cd backend
-npm test
-
-cd ../frontend
 npm test
 ```
 
-### Database Migrations
+### Build the Frontend
 ```bash
-# Create new migration
-npm run migrate:create
-
-# Run migrations
-npm run migrate:latest
+npm run build
 ```
 
 ## 📝 Environment Variables
@@ -238,14 +232,15 @@ npm run migrate:latest
 ### Backend (.env)
 ```
 DB_HOST=localhost
-DB_PORT=3306
+DB_PORT=5432
 DB_NAME=buse_tp
-DB_USER=root
+DB_USER=postgres
 DB_PASSWORD=
 PORT=5000
 NODE_ENV=development
-JWT_SECRET=your_long_secret_key
+JWT_SECRET=<set-a-long-random-secret>
 JWT_EXPIRE=7d
+ADMIN_INITIAL_PASSWORD=<set-a-unique-initial-password>
 ```
 
 ## 🤝 Contributing
@@ -261,7 +256,7 @@ For issues or questions:
 - Email: edube@buse.ac.zw
 - phone number: +263782828857
 - Issue Tracker: GitHub Issues
-- Documentation: See `docs/` folder
+- Documentation: See [Documentation Index](DOCUMENTATION_INDEX.md) and [User Guide](USER_GUIDE.md)
 
 ## 📄 License
 

@@ -12,9 +12,10 @@
     "dev": "concurrently \"npm:dev-backend\" \"npm:dev-frontend\"",
     "dev-backend": "cd backend && npm run dev",
     "dev-frontend": "cd frontend && npm start",
-    "build": "npm run build-backend && npm run build-frontend",
-    "build-backend": "cd backend && npm run build",
-    "build-frontend": "cd frontend && npm run build"
+    "build": "npm run build-frontend",
+    "build-frontend": "npm run build --workspace=buse-tp-frontend",
+    "test": "npm run test-backend",
+    "test-backend": "npm run test --workspace=buse-tp-backend"
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

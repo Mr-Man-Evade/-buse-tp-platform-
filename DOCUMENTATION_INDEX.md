@@ -4,6 +4,8 @@
 
 ### 🎯 **Start Here** (Pick Your Role)
 
+- **I'm using the system** → Read [USER_GUIDE.md](USER_GUIDE.md)
+- **I'm setting up the system** → Read [README.md](README.md) and [SETUP_GUIDE.md](SETUP_GUIDE.md)
 - **I'm a Developer** → Read [QUICK_REFERENCE.md](QUICK_REFERENCE.md) (5 min)
 - **I'm a Tech Lead** → Read [PHASE_5_COMPLETION_SUMMARY.md](PHASE_5_COMPLETION_SUMMARY.md) (10 min)
 - **I'm Starting Phase 6** → Read [PHASE_6_QUICK_START.md](frontend/src/components/PHASE_6_QUICK_START.md) (10 min)
