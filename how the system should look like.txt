@@ -1,0 +1,41 @@
+how the system should look like and behave exactly what it should do. 
+For all the users user interface 
+On all profiles and title field to put an example of Mr or Mrs Dr etc
+it have to show on left blue panel to reflect/highlight any opened pages/window .
+If profile icon clicked, it must drop down access features like logout, edit profile, etc. etc. 
+SYSTEM refresh rate it must be fast nano seconds. 
+for TP coordinator roles 
+•	must be able to:
+•	 manage users on things like add or remove users and Ability to change supervisors roles .
+•	Assigned and reassign students (supervisee) to supervisors. 
+•	Assign in reassign supervisors to students. 
+•	See supervisors dashboard, and able to see how many student the supervisor is the supervising. And the progress of the students being supervised 
+•	Update and delete supervisors, crud supervisor’s details 
+•	A constraint of notes to delete the supervisor if you or she has students on pending supervision, the system must not allow GP coordinator to delete such supervisors, but only the system admin can do the deletion if it’s in that case. 
+•	if TP coordinator open supervisor ‘s dashboard must be able to only preview the content shared to him by the students in their dashboards.
+•	 can upload CSV file with all assignments for the new users like assigning which student to which supervisor using CSV file to upload a Bulk student and supervisor assignment. 
+•	Must be able to view gradebook with marks produce by supervisor, but must not be able to ulter or edit those marks.
+•	Able to delete any user.
+Supervisor 
+•	must be able to view only students he or she is supervising in the system. 
+•	and on user interface in the supervisors dashboard, the supervisor must to see a list of students he or she is supervising in his dashboard. 
+•	our student must be must have an option to view their submissions at the end of the line. 
+•	If supervisor click view submissions it must open another window with the name of the students above and the details of the students above then below it shows a tubular format with all the submissions, but the student is made with the dates and times of submissions. 
+•	The submissions must be in a tubular format, clear and button to grade button to download button to Preview the content, and also the last button below everything to download all the submissions at once in a zip format. 
+•	I will attach the manual based system paper based format, which was being used to assess the students by the lecturers. 
+•	I will also attach what needs to be submitted by students inform of PDFs or docs excel sheets, pictures, or video, etc. 
+•	   
+•	  
+•	Student registration number must appear on top of the dashboard, if opened by the supervisor. 
+•	On all the documents, there must be two buttons, to be used by the supervisor the one is resubmit and the approved buttons. 
+•	If the supervisor is done all this work, it prompts him on a grading window, where he will fill the online script and submit the final grade for the student, I will share the manual crit the one that is being used currently. 
+•	oh, this must be done. while the left the blue panel showing the currently opened window, this feature is applicable to all the users in the system that if whatever they open must be highlighted on the left panel. 
+students 
+•	when students dashboard on his or her profile it must show his name, surname, Registration number like B191234B, program that he or she’s doing, the level that he or she is currently in for example 2.2 or 1.1 . This must be also visible to the supervisor who is the supervising him or her. 
+•	on the tubular form that will be visible to the supervisor, the student must have the following things needed for submission 1. return slip. 2. Schemes of work. 3. Daily lesson plan DLP. etc will paste A PICTURE WITH ALL THE REQUIRED THINGS. 
+•	Student must league in that tubular form to submit what or she wants to submit in each respective area. 
+•	For the DLP section must allow up to 1000 DLP files in that section with date and time of submission of each and every file submitted or uploaded. 
+•	The tubular form must be like of a calendar with the dates in the months section, using a tubular format like of a calendar the year on top of the table, change the document submitted the respective date and time below the submitted the document. So that it will be easy for the supervisor to check if the student is doing work on every day basis. 
+•	Usually, the TP brands one year 12 months. After that, the student will be given overall mark for the whole teaching practice. 
+•	
+
